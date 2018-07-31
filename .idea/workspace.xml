@@ -13,17 +13,6 @@
       <change afterPath="$PROJECT_DIR$/out/production/uzduotis/OOP/model/Suo.class" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/out/production/uzduotis/OOP/view/AnimalView.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/gyvunai.txt" beforeDir="false" afterPath="$PROJECT_DIR$/gyvunai.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/controller/AnimalsController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/controller/AnimalsController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/controller/TAnimals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/controller/TAnimals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/model/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/model/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/model/Animals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/model/Animals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/model/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/model/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/model/Duomenys.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/model/Duomenys.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/model/Spider.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/model/Spider.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/model/Suo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/model/Suo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/OOP/view/AnimalView.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/OOP/view/AnimalView.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/uzduotis" beforeDir="false" afterPath="$PROJECT_DIR$/uzduotis" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -36,7 +25,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/OOP/Main.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="147">
@@ -81,11 +70,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Spider.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Spider.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/OOP/model/Spider.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="42">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="126">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -165,11 +154,6 @@
             <path>
               <item name="uzduotis" type="b2602c69:ProjectViewProjectNode" />
               <item name="Uzduotis" type="462c0819:PsiDirectoryNode" />
-              <item name=".idea" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uzduotis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Uzduotis" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -185,20 +169,6 @@
               <item name="OOP" type="462c0819:PsiDirectoryNode" />
               <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="uzduotis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Uzduotis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="uzduotis" type="b2602c69:ProjectViewProjectNode" />
-              <item name="Uzduotis" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="OOP" type="462c0819:PsiDirectoryNode" />
-              <item name="view" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -209,10 +179,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Modules" />
-    <property name="project.structure.proportion" value="0.0" />
-    <property name="project.structure.side.proportion" value="0.0" />
-    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
+    <property name="project.structure.last.edited" value="SDKs" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -266,16 +236,22 @@
       <option name="project" value="LOCAL" />
       <updated>1533067609457</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Merge branch 'master' of https://github.com/githubTadas/Uzduotis&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml">
+      <created>1533069004566</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1533069004566</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1618" height="918" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Messages" order="7" weight="0.32950193" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32950193" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
@@ -286,7 +262,7 @@
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32868218" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25375" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25375" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="2" />
@@ -359,7 +335,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="dedu i gita" />
-    <option name="LAST_COMMIT_MESSAGE" value="dedu i gita" />
+    <MESSAGE value="Merge branch 'master' of https://github.com/githubTadas/Uzduotis&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
+    <option name="LAST_COMMIT_MESSAGE" value="Merge branch 'master' of https://github.com/githubTadas/Uzduotis&#10;&#10;# Conflicts:&#10;#&#9;.idea/workspace.xml" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/OOP/Main.java">
@@ -441,20 +418,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/OOP/model/Spider.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/OOP/model/Suo.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="42">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/OOP/model/Animal.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-430">
@@ -487,6 +450,20 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOP/model/Suo.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/OOP/model/Spider.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
         </state>
       </provider>
     </entry>
