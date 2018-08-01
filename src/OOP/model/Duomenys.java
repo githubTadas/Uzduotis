@@ -10,62 +10,63 @@ import java.util.Scanner;
 public class Duomenys {
 
 
+    private static Duomenys obj = null;
 
-    Scanner sc = new Scanner(System.in);
+
+    public static Duomenys getInstance() {
+        if (obj == null) {
+            obj = new Duomenys();
+        }
+        return obj;
+    }
+
+    private ArrayList<Animal> arrayList;
+
+    private Duomenys() {
+
+        arrayList = new ArrayList<>();
+        readData();
+    }
+
+    public void readData() {
 
 
-    FileReader reader;
 
-    {
+        FileReader reader = null;
+
+
         try {
             reader = new FileReader("gyvunai.txt");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
-    }
+Scanner sc = new Scanner(reader);
 
-    private static Duomenys obj = null;
-
-
-
-    public static Duomenys getInstance() {
-        if(obj == null){
-            obj= new Duomenys();
-        }
-        return obj;
-    }
-    private ArrayList<Animal> arrayList;
-
-    private Duomenys(){
-
-        arrayList = new ArrayList<>();
-    }
-
-    public void readData(){
         while (sc.hasNext()) {
-            String tipas = sc.nextLine();
-            String seima = sc.nextLine();
-            String vardas = sc.nextLine();
+            String tipas = sc.next();
+            String seima = sc.next();
+            String vardas = sc.next();
             float svoris = sc.nextFloat();
             float ugis = sc.nextFloat();
-            String judejimas = sc.nextLine();
-
+            String judejimas = sc.next();
+            arrayList.add(buildAnimal(tipas, seima, vardas, svoris, ugis, judejimas));
         }
 
         try {
             reader.close();
-        } catch (IOException e) {
+            sc.close();
+        } catch (Exception e) {
             e.printStackTrace();
         }
 
 
     }
 
-    private Animal buildAnimal(String tipas, String seima, String vardas, float svoris, float ugis, String judejimas){
+    private Animal buildAnimal(String tipas, String seima, String vardas, float svoris, float ugis, String judejimas) {
 
 
-        tipas = null;
-        switch (tipas) {
+
+        switch (tipas.toLowerCase()) {
             case "suo":
                 return new Suo(tipas, seima, svoris, vardas, ugis, judejimas);
             case "kate":
@@ -85,9 +86,6 @@ public class Duomenys {
 
     }
     // switch
-
-     Scanner close;
-
 
 
 }

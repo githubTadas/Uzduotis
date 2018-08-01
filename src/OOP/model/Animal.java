@@ -1,6 +1,6 @@
 package OOP.model;
 
-public class Animal implements Animals {
+public class Animal{
 
     private String tipas;
     private String seima;
@@ -64,16 +64,13 @@ public class Animal implements Animals {
     }
 
 
-    public void buildAnimal() {
-
-        System.out.println("Gyvuno tipas: + gyvuno seima + gyvuno vardas + gyvuno svoris + gyvuno ugis + gyvuno judejimas");
-
-    }
-
-
-    @Override
-    public void buildAnimal(String tipas, String seima, String vardas, Float svoris, Float ugis, String judejimas) {
-
+    public Animal(String tipas, String seima, String vardas, float svoris, float ugis, String judejimas){
+        this.tipas=tipas;
+        this.seima=seima;
+        this.vardas=vardas;
+        this.svoris=svoris;
+        this.ugis=ugis;
+        this.judejimas=judejimas;
     }
 
 

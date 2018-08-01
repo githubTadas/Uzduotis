@@ -1,3 +1,3 @@
-Suo mammal Petriukas 20.1 0.5 Walks
-Cat mamal Katusinas 3.0 0.2 Walks
-Spider arachnid Antanas 0.1 0.03 Crawls
+Suo mammal Petriukas 20,1 0,5 Walks
+Kate mamal Katusinas 3,0 0,2 Walks
+Spider arachnid Antanas 0,1 0,03 Crawls

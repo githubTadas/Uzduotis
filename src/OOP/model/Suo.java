@@ -4,7 +4,7 @@ public class Suo extends Animal {
 
 
     public Suo(String tipas, String seima, float svoris, String vardas, float ugis, String judejimas) {
-        super();
+        super(tipas, seima, vardas, svoris, ugis, judejimas);
     }
 }
 
